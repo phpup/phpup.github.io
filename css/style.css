@@ -1,0 +1,65 @@
+﻿.navbar-main{
+	background: rgba(230, 230, 230, .85);
+}
+.navbar-brand {
+  padding: 1px;
+}
+
+.navbar-main  li  a{
+	border-left: 1px solid #ebebeb;
+    color: #000;
+    display: block;
+    font-size: 1.125em;
+    text-align: center;
+	background:transparent;
+}
+.navbar-main  li  a:hover,.navbar-main  li  a:focus{
+    color: #ff6000;
+	background:transparent;
+	border-bottom: 3px solid #ff6000;
+}
+.navbar-main .navbar-nav > .active > a,
+.navbar-main .navbar-nav > .active > a:hover,
+.navbar-main .navbar-nav > .active > a:focus {
+    color: #ff6000;
+	/*background: rgba(255, 100, 0, .20);*/
+	border-bottom: 3px solid #ff6000;
+}
+
+
+#qjoycarousel{
+	padding-top:0px;
+}
+.carousel-inner > .item > img {
+	 height: 580px;
+	margin:0 auto;
+}
+.carousel .item{
+	height:580px;
+}
+.navbar-default .container {
+    padding: 0 20px;
+}
+
+
+.carousel-indicators li {
+  border: 1px solid #c83200;
+}
+.carousel-indicators .active {
+  background-color: #ff5800;
+}
+
+
+.product .glyphicon{
+	font-size:60px;
+	color:#003399;
+	border: 2px solid #003399;
+	padding:20px;
+	border-radius: 30px;
+}
+.product a:hover .glyphicon{
+	transform: scale(1.1);
+    transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+	color:#ff8000;
+	border: 2px solid #ff8000;
+}
